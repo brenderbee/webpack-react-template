@@ -14,6 +14,14 @@ function App(){
         <Route path='/newticket' component={NewTicketForm} />
         <Route component={Error404} />
       </Switch>
+      <style jsx global>{`
+        body {
+          font-family: 'Helvetica', sans-serif;
+        }
+        a {
+          text-decoration: none;
+        }
+        `}</style>
     </div>
   );
 }
