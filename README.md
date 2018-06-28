@@ -44,6 +44,8 @@ _This project uses Webpack to bundle and minify the code. The view library is Re
     * $ npm run build
   * To run the local test server:
     * $ npm run start
+  * To run test in Karma:
+    * $ npm test
 
 
 ## Known Bugs
@@ -67,6 +69,15 @@ _Developer Dependencies_
   * eslint-loader^2.0.0
   * eslint-plugin-react^7.5.1
   * html-webpack-plugin^2.29.0
+  * jasmine^3.1.0
+  * jasmine-core^2.99.0
+  * karma^2.0.0
+  * karma-chrome-launcher^2.2.0
+  * karma-cli^1.0.1
+  * karma-jasmine^1.1.1
+  * karma-jasmine-html-reporter^0.2.2
+  * karma-jquery^0.2.2
+  * karma-webpack^2.0.13
   * react-hot-loader^3.0.0-beta.7
   * webpack^3.4.0
   * webpack-dev-server^2.5.0
